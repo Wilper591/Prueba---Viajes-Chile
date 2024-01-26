@@ -5,7 +5,14 @@
 <i class="fa-brands fa-linkedin"></i>
 <i class="fa-brands fa-square-x-twitter"></i>
 <i class="fa-brands fa-square-facebook"></i> */
-
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: #000000;
+}
 
 
 .navbar {
@@ -18,4 +25,8 @@
 }
 .nav-link {
     color: #ffffff;
+}
+#somosContainer {
+    display: flex;
+    gap: 2rem;
 }
