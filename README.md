@@ -21,3 +21,8 @@ A los card de la "sección destacados" se les aplico un height definido a sus im
 El formulario fue sacado como componente de bootstrap, se duplico el primer label y se cambio el nombre y se añadio una ventana modal al boton enviar.
 El botón enviar cuenta con una ventana emergente que aparece en el centro de la pantalla al pulsar "Enviar".
 Por último en el footer se implemento un salto de sección al inicio de la página al apretar en el texto "Viajes Chile" y al pasar el cursor encima de los iconos de Redes Sociales aparece un tooltip con su respectivo nombre, ademas los link se abren en pestañas adicionales.
+
+Con respecto al archivo index.js
+Contiene 2 items, el primer utilizar codigo bootstrap para aplicar una ventana modal al apretar el boton "Enviar" del formulario en sección contacto, y el segundo es una serie de tooltips que se aplican a los iconos de las redes sociales en el footer al colocar el cursor encima.
+
+En el archivo Style.css se definio el tipo de letra a utlizar "Ubuntu" en medidas 400,500 y 700. Se establecieron estilos personalizados para clases y id y se aplico un MQ para el footer en vista superior a los 768px.
