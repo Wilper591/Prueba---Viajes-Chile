@@ -56,12 +56,12 @@ body {
   border-bottom: 1px solid gray;
 }
 #footerSection {
-    padding: 2rem;
-    display: inline-block;
-    width: 100%;
-    font-size: 3rem;
-    
+  padding: 2rem;
+  font-size: 3rem;
 }
-#rrssContainer {
-
+@media (min-width: 768px) {
+  #footerSection {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
