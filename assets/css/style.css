@@ -25,6 +25,9 @@ body {
 .nav-link:hover {
   color: white;
 }
+.card-body {
+    border-radius: 0.4rem;
+}
 /* ID's */
 #viajesLogo {
   width: 30px;
