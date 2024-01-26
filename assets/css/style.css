@@ -5,3 +5,17 @@
 <i class="fa-brands fa-linkedin"></i>
 <i class="fa-brands fa-square-x-twitter"></i>
 <i class="fa-brands fa-square-facebook"></i> */
+
+
+
+.navbar {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+.nav-link {
+    color: #ffffff;
+}
