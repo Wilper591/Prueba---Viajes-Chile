@@ -5,13 +5,13 @@
 <i class="fa-brands fa-linkedin"></i>
 <i class="fa-brands fa-square-x-twitter"></i>
 <i class="fa-brands fa-square-facebook"></i> */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 body {
   background-color: #000000;
@@ -60,6 +60,13 @@ body {
 }
 #footerSection {
   padding: 2rem;
+  font-size: 3rem;
+}
+
+#ghIcon,
+#inIcon,
+#xIcon,
+#fbIcon {
   font-size: 3rem;
 }
 @media (min-width: 768px) {

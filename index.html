@@ -330,7 +330,9 @@
                     aria-label="Close"
                   ></button>
                 </div>
-                <div class="modal-body">Tu Mensaje fue enviado Exitosamente!</div>
+                <div class="modal-body">
+                  Tu Mensaje fue enviado Exitosamente!
+                </div>
                 <div class="modal-footer">
                   <button
                     type="button"
@@ -353,18 +355,53 @@
       >
       <!-- Contenedor iconos -->
       <div>
-        <a target="_blank" href="https://github.com"
-          ><i class="fa-brands fa-square-github text-white"></i
-        ></a>
-        <a target="_blank" href="https://www.linkedin.com/"
-          ><i class="fa-brands fa-linkedin text-white"></i
-        ></a>
-        <a target="_blank" href="https://twitter.com/">
-          <i class="fa-brands fa-square-x-twitter text-white"></i
-        ></a>
-        <a target="_blank" href="https://facebook.com/">
-          <i class="fa-brands fa-square-facebook text-white"></i
-        ></a>
+        <button
+          type="button"
+          class="btn btn-info p-0"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          data-bs-title="GitHub"
+        >
+          <a target="_blank" href="https://github.com"
+            ><i id="ghIcon" class="fa-brands fa-square-github text-white"></i
+          ></a>
+        </button>
+        <button
+          id="inIcon"
+          type="button"
+          class="btn btn-info p-0"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          data-bs-title="Linkedin"
+        >
+          <a target="_blank" href="https://www.linkedin.com/"
+            ><i class="fa-brands fa-linkedin text-white"></i
+          ></a>
+        </button>
+        <button
+          id="xIcon"
+          type="button"
+          class="btn btn-info p-0"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          data-bs-title="Twitter"
+        >
+          <a target="_blank" href="https://twitter.com/">
+            <i class="fa-brands fa-square-x-twitter text-white"></i
+          ></a>
+        </button>
+        <button
+          id="fbIcon"
+          type="button"
+          class="btn btn-info p-0"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          data-bs-title="FaceBook"
+        >
+          <a target="_blank" href="https://facebook.com/">
+            <i class="fa-brands fa-square-facebook text-white"></i
+          ></a>
+        </button>
       </div>
     </footer>
     <!-- Script FONTAWESOME -->
