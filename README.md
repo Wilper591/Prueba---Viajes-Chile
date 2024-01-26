@@ -1,4 +1,4 @@
-LINK: <a href="https://wilper591.github.io/Prueba-Viajes-Chile/">Prueba Viajes Chile</a>
+LINK: <a target="_blank" href="https://wilper591.github.io/Prueba-Viajes-Chile/">Prueba Viajes Chile</a>
 
 Aquí va la documentación de la página
 La pagina cuenta con una estructura HTML repartida de la siguiente forma
