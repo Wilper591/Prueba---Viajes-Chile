@@ -22,7 +22,7 @@
       <nav id="navBar" class="navbar navbar-expand-lg">
         <div class="container-fluid row">
           <a
-            class="navbar-brand mx-5 col-auto col-sm-6 col-md-8 text-white"
+            class="navbar-brand mx-5 col-auto col-sm-6 col-md-8 text-white fw-bold"
             href="#"
             ><p>
               <img
@@ -48,11 +48,11 @@
             class="collapse navbar-collapse col-6 col-md-4"
             id="navbarNavAltMarkup"
           >
-            <div class="navbar-nav">
+            <div class="navbar-nav fw-light">
               <a class="nav-link" href="#">Inicio</a>
-              <a class="nav-link" href="#">Quienes Somos</a>
-              <a class="nav-link" href="#">Destacados</a>
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#somosSection">Quienes Somos</a>
+              <a class="nav-link" href="#destacadosSection">Destacados</a>
+              <a class="nav-link" href="#contactoSection">Contacto</a>
             </div>
           </div>
         </div>
@@ -114,11 +114,12 @@
           ¿Quiénes Somos?
         </h2>
         <div id="somosContainer" class="p-4">
-          <div class="">
+          <!-- Contenedor parrafo+icono -->
+          <div>
             <i
               class="fa-solid fa-plane text-white text-center bg-info w-100 p-2 fs-1"
             ></i>
-            <p class="text-white">
+            <p class="text-white fw-medium">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
               autem quia amet sit eaque vero libero non adipisci ad! Enim totam
               iste hic tempore saepe tenetur impedit accusamus possimus
@@ -131,8 +132,9 @@
               accusamus possimus voluptatibus?
             </p>
           </div>
-          <div class="">
-            <p class="text-white">
+          <!-- Contenedor parrafo+icono -->
+          <div>
+            <p class="text-white fw-medium">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
               quia, officiis dolore quibusdam officia quo explicabo aspernatur
               voluptas animi impedit ipsam magni dolorem suscipit non, facilis
@@ -149,11 +151,12 @@
               class="fa-solid fa-mountain text-white text-center bg-info w-100 p-2 fs-1"
             ></i>
           </div>
-          <div class="">
+          <!-- Contenedor parrafo+icono -->
+          <div>
             <i
               class="fa-solid fa-route text-white text-center bg-info w-100 p-2 fs-1"
             ></i>
-            <p class="text-white">
+            <p class="text-white fw-medium">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
               autem quia amet sit eaque vero libero non adipisci ad! Enim totam
               iste hic tempore saepe tenetur impedit accusamus possimus
@@ -186,8 +189,8 @@
                 alt="Paisaje 1"
               />
               <div class="card-body">
-                <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
-                <p class="card-text">
+                <h5 class="card-title fw-bold">Lorem ipsum, dolor sit amet</h5>
+                <p class="card-text fw-light">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam quis deserunt error dicta, dolor illo nesciunt
                   cupiditate distinctio quam aliquam voluptas, dolore
@@ -206,8 +209,8 @@
                 alt="Paisaje 2"
               />
               <div class="card-body">
-                <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
-                <p class="card-text">
+                <h5 class="card-title fw-bold">Lorem ipsum, dolor sit amet</h5>
+                <p class="card-text fw-light">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam quis deserunt error dicta, dolor illo nesciunt
                   cupiditate distinctio quam aliquam voluptas, dolore
@@ -226,8 +229,8 @@
                 alt="Paisaje 3"
               />
               <div class="card-body">
-                <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
-                <p class="card-text">
+                <h5 class="card-title fw-bold">Lorem ipsum, dolor sit amet</h5>
+                <p class="card-text fw-light">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam quis deserunt error dicta, dolor illo nesciunt
                   cupiditate distinctio quam aliquam voluptas, dolore
@@ -246,8 +249,8 @@
                 alt="Paisaje 4"
               />
               <div class="card-body">
-                <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
-                <p class="card-text">
+                <h5 class="card-title fw-bold">Lorem ipsum, dolor sit amet</h5>
+                <p class="card-text fw-light">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam quis deserunt error dicta, dolor illo nesciunt
                   cupiditate distinctio quam aliquam voluptas, dolore
@@ -263,6 +266,7 @@
         <h2 id="contactoTitulo" class="text-white text-center p-4 fs-1">
           Contacto
         </h2>
+        <!-- Formulario -->
         <div class="mx-5">
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label text-white"
@@ -304,13 +308,23 @@
     </main>
     <!-- FOOTER -->
     <footer id="footerSection" class="bg-info text-center">
-      <p class="text-white">Viajes Chile</p>
+      <a class="text-white text-decoration-none fw-bold" href="#"
+        >Viajes Chile</a
+      >
       <!-- Contenedor iconos -->
       <div>
-        <i class="fa-brands fa-square-github text-white"></i>
-        <i class="fa-brands fa-linkedin text-white"></i>
-        <i class="fa-brands fa-square-x-twitter text-white"></i>
-        <i class="fa-brands fa-square-facebook text-white"></i>
+        <a target="_blank" href="https://github.com"
+          ><i class="fa-brands fa-square-github text-white"></i
+        ></a>
+        <a target="_blank" href="https://www.linkedin.com/"
+          ><i class="fa-brands fa-linkedin text-white"></i
+        ></a>
+        <a target="_blank" href="https://twitter.com/">
+          <i class="fa-brands fa-square-x-twitter text-white"></i
+        ></a>
+        <a target="_blank" href="https://facebook.com/">
+          <i class="fa-brands fa-square-facebook text-white"></i
+        ></a>
       </div>
     </footer>
     <!-- Script FONTAWESOME -->

@@ -5,10 +5,13 @@
 <i class="fa-brands fa-linkedin"></i>
 <i class="fa-brands fa-square-x-twitter"></i>
 <i class="fa-brands fa-square-facebook"></i> */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 body {
   background-color: #000000;
