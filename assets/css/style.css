@@ -28,6 +28,9 @@ body {
 .nav-link {
   color: #ffffff;
 }
+.nav-link:hover{
+    color: white;
+}
 #viajesLogo {
   width: 30px;
   height: 30px;
