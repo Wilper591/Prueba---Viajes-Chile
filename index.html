@@ -24,7 +24,13 @@
           <a
             class="navbar-brand mx-5 col-auto col-sm-6 col-md-8 text-white"
             href="#"
-            ><p> <img id="viajesLogo" src="/assets/img/viajes.svg" alt="Logo">Viajes Chile</p></a
+            ><p>
+              <img
+                id="viajesLogo"
+                src="/assets/img/viajes.svg"
+                alt="Logo"
+              />Viajes Chile
+            </p></a
           >
           <button
             class="navbar-toggler navbar-dark"
@@ -99,12 +105,15 @@
     <!-- CONTENEDOR DEL CONTENIDO PRINCIPAL -->
     <main>
       <!-- ¿Quiénes somos? -->
-      <section id="somosSection" class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+      <section
+        id="somosSection"
+        class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"
+      >
         <!-- Contenedor principal Textos -->
         <h2 id="somosTitulo" class="text-center text-white p-4 fs-1">
           ¿Quiénes Somos?
         </h2>
-        <div id="somosContainer" class="p-4 ">
+        <div id="somosContainer" class="p-4">
           <div class="">
             <i
               class="fa-solid fa-plane text-white text-center bg-info w-100 p-2 fs-1"
@@ -249,7 +258,60 @@
           </div>
         </div>
       </section>
+      <!-- SECCIÓN CONTACTO -->
+      <section id="contactoSection">
+        <h2 id="contactoTitulo" class="text-white text-center p-4 fs-1">
+          Contacto
+        </h2>
+        <div class="mx-5">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label text-white"
+              >Nombre</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label text-white"
+              >Asunto</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div class="mb-3">
+            <label
+              for="exampleFormControlTextarea1"
+              class="form-label text-white"
+              >Mensaje</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="button" class="btn btn-info text-white my-4">
+            Enviar
+          </button>
+        </div>
+      </section>
     </main>
+    <!-- FOOTER -->
+    <footer id="footerSection" class="bg-info text-center">
+      <p class="text-white">Viajes Chile</p>
+      <div id="rrssContainer">
+        <i class="fa-brands fa-square-github text-white"></i>
+        <i class="fa-brands fa-linkedin text-white"></i>
+        <i class="fa-brands fa-square-x-twitter text-white"></i>
+        <i class="fa-brands fa-square-facebook text-white"></i>
+      </div>
+    </footer>
     <!-- Script FONTAWESOME -->
     <script
       src="https://kit.fontawesome.com/26f1f0d8af.js"

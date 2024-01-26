@@ -6,47 +6,62 @@
 <i class="fa-brands fa-square-x-twitter"></i>
 <i class="fa-brands fa-square-facebook"></i> */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 body {
-    background-color: #000000;
+  background-color: #000000;
 }
 .navbar {
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 10000;
-    margin: 0;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10000;
+  margin: 0;
 }
 .nav-link {
-    color: #ffffff;
+  color: #ffffff;
 }
 #viajesLogo {
-    width: 30px;
-    height: 30px;
-    margin: 0.5rem;
+  width: 30px;
+  height: 30px;
+  margin: 0.5rem;
 }
 #somosSection {
-    margin: 2rem 3rem 3rem 3rem;
+  margin: 2rem 3rem 3rem 3rem;
 }
 #somosContainer {
-    display: flex;
-    gap: 2rem;
+  display: flex;
+  gap: 2rem;
 }
 #somosTitulo {
-    border-bottom: 1px solid white;
-    text-align: center;    
+  border-bottom: 1px solid gray;
 }
 #destacadosTitulo {
-    border-bottom: 1px solid white;
-    text-align: center;    
+  border-bottom: 1px solid gray;
 }
 #destacadosSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 3rem 3rem 3rem;
+}
+#contactoSection {
+  margin: 2rem 3rem 3rem 3rem;
+}
+#contactoTitulo {
+  border-bottom: 1px solid gray;
+}
+#footerSection {
+    padding: 2rem;
+    display: inline-block;
+    width: 100%;
+    font-size: 3rem;
+    
+}
+#rrssContainer {
+
 }
