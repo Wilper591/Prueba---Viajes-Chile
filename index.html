@@ -99,120 +99,152 @@
     <!-- CONTENEDOR DEL CONTENIDO PRINCIPAL -->
     <main>
       <!-- ¿Quiénes somos? -->
-      <section>
+      <section id="somosSection" class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
         <!-- Contenedor principal Textos -->
-        <h2 class="text-center text-white p-4 fs-1">¿Quiénes Somos?</h2>
-        <div id="somosContainer" class="p-4">
-          <div class="container">
+        <h2 id="somosTitulo" class="text-center text-white p-4 fs-1">
+          ¿Quiénes Somos?
+        </h2>
+        <div id="somosContainer" class="p-4 ">
+          <div class="">
             <i
-              class="fa-solid fa-plane text-white text-center bg-primary w-100 p-2"
+              class="fa-solid fa-plane text-white text-center bg-primary w-100 p-2 fs-1"
             ></i>
             <p class="text-white">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
               autem quia amet sit eaque vero libero non adipisci ad! Enim totam
               iste hic tempore saepe tenetur impedit accusamus possimus
-              voluptatibus?
+              voluptatibus? Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Sequi autem quia amet sit eaque vero libero non adipisci ad!
+              Enim totam iste hic tempore saepe tenetur impedit accusamus
+              possimus voluptatibus? Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Sequi autem quia amet sit eaque vero libero non
+              adipisci ad! Enim totam iste hic tempore saepe tenetur impedit
+              accusamus possimus voluptatibus?
             </p>
           </div>
-          <div class="container">
+          <div class="">
             <p class="text-white">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
               quia, officiis dolore quibusdam officia quo explicabo aspernatur
               voluptas animi impedit ipsam magni dolorem suscipit non, facilis
-              ab laboriosam maiores accusamus!
+              ab laboriosam maiores accusamus! Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Dolorum quia, officiis dolore
+              quibusdam officia quo explicabo aspernatur voluptas animi impedit
+              ipsam magni dolorem suscipit non, facilis ab laboriosam maiores
+              accusamus! Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Dolorum quia, officiis dolore quibusdam officia quo
+              explicabo aspernatur voluptas animi impedit ipsam magni dolorem
+              suscipit non, facilis ab laboriosam maiores accusamus!
             </p>
             <i
-              class="fa-solid fa-mountain text-white text-center bg-primary w-100 p-2"
+              class="fa-solid fa-mountain text-white text-center bg-primary w-100 p-2 fs-1"
             ></i>
           </div>
-          <div class="container">
+          <div class="">
             <i
-              class="fa-solid fa-route text-white text-center bg-primary w-100 p-2"
+              class="fa-solid fa-route text-white text-center bg-primary w-100 p-2 fs-1"
             ></i>
             <p class="text-white">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
               autem quia amet sit eaque vero libero non adipisci ad! Enim totam
               iste hic tempore saepe tenetur impedit accusamus possimus
-              voluptatibus?
+              voluptatibus? Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Sequi autem quia amet sit eaque vero libero non adipisci ad!
+              Enim totam iste hic tempore saepe tenetur impedit accusamus
+              possimus voluptatibus? Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Sequi autem quia amet sit eaque vero libero non
+              adipisci ad! Enim totam iste hic tempore saepe tenetur impedit
+              accusamus possimus voluptatibus?
             </p>
           </div>
         </div>
       </section>
       <!-- Destacados -->
-      <section>
+      <section id="destacadosSection">
         <!-- Contenedor del CARD -->
-        <div>
-          <div class="card" style="width: 18rem">
-            <img
-              src="./assets/img/card1.jpg"
-              class="card-img-top"
-              alt="Paisaje 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam quis deserunt error dicta, dolor illo nesciunt
-                cupiditate distinctio quam aliquam voluptas, dolore consectetur?
-                Nobis quam libero earum a unde nam.
-              </p>
+        <h2 id="destacadosTitulo" class="text-center text-white p-4 fs-1">
+          Destacados
+        </h2>
+        <!-- Contenedor de todos los CARD -->
+        <div class="row m-4 my-5">
+          <!-- Contenedor del CARD -->
+          <div class="col-12 col-md-3 my-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./assets/img/card1.jpg"
+                class="card-img-top"
+                style="height: 10rem"
+                alt="Paisaje 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam quis deserunt error dicta, dolor illo nesciunt
+                  cupiditate distinctio quam aliquam voluptas, dolore
+                  consectetur? Nobis quam libero earum a unde nam.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- Contenedor del CARD -->
-        <div>
-          <div class="card" style="width: 18rem">
-            <img
-              src="./assets/img/card2.jpg"
-              class="card-img-top"
-              alt="Paisaje 2"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam quis deserunt error dicta, dolor illo nesciunt
-                cupiditate distinctio quam aliquam voluptas, dolore consectetur?
-                Nobis quam libero earum a unde nam.
-              </p>
+          <!-- Contenedor del CARD -->
+          <div class="col-12 col-md-3 my-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./assets/img/card2.jpg"
+                class="card-img-top"
+                style="height: 10rem"
+                alt="Paisaje 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam quis deserunt error dicta, dolor illo nesciunt
+                  cupiditate distinctio quam aliquam voluptas, dolore
+                  consectetur? Nobis quam libero earum a unde nam.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- Contenedor del CARD -->
-        <div>
-          <div class="card" style="width: 18rem">
-            <img
-              src="./assets/img/card3.jpg"
-              class="card-img-top"
-              alt="Paisaje 3"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam quis deserunt error dicta, dolor illo nesciunt
-                cupiditate distinctio quam aliquam voluptas, dolore consectetur?
-                Nobis quam libero earum a unde nam.
-              </p>
+          <!-- Contenedor del CARD -->
+          <div class="col-12 col-md-3 my-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./assets/img/card3.jpg"
+                class="card-img-top"
+                style="height: 10rem"
+                alt="Paisaje 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam quis deserunt error dicta, dolor illo nesciunt
+                  cupiditate distinctio quam aliquam voluptas, dolore
+                  consectetur? Nobis quam libero earum a unde nam.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- Contenedor del CARD -->
-        <div>
-          <div class="card" style="width: 18rem">
-            <img
-              src="./assets/img/card4.jpg"
-              class="card-img-top"
-              alt="Paisaje 4"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam quis deserunt error dicta, dolor illo nesciunt
-                cupiditate distinctio quam aliquam voluptas, dolore consectetur?
-                Nobis quam libero earum a unde nam.
-              </p>
+          <!-- Contenedor del CARD -->
+          <div class="col-12 col-md-3 my-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./assets/img/card4.jpg"
+                class="card-img-top"
+                style="height: 10rem"
+                alt="Paisaje 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam quis deserunt error dicta, dolor illo nesciunt
+                  cupiditate distinctio quam aliquam voluptas, dolore
+                  consectetur? Nobis quam libero earum a unde nam.
+                </p>
+              </div>
             </div>
           </div>
         </div>

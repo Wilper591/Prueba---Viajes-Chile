@@ -13,8 +13,6 @@
 body {
     background-color: #000000;
 }
-
-
 .navbar {
     background-color: transparent;
     backdrop-filter: blur(10px);
@@ -26,7 +24,23 @@ body {
 .nav-link {
     color: #ffffff;
 }
+#somosSection {
+    margin: 2rem 3rem 3rem 3rem;
+}
 #somosContainer {
     display: flex;
     gap: 2rem;
+}
+#somosTitulo {
+    border-bottom: 1px solid white;
+    text-align: center;    
+}
+#destacadosTitulo {
+    border-bottom: 1px solid white;
+    text-align: center;    
+}
+#destacadosSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
